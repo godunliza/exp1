@@ -10,7 +10,8 @@
 -author("Elizaveta").
 
 %% API
--export([hello_fun/0,bye_fun/0]).
+-export([hello_fun/0,bye_fun/0,last_fun/0]).
 
 hello_fun()->hello.
 bye_fun()->bye.
+last_fun()->last.
